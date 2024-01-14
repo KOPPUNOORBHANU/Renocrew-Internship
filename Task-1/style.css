@@ -16,12 +16,6 @@ header {
     border-bottom: 10px solid #b2d7e2;
 }
 
-.center-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 h1 {
     margin: 0;
