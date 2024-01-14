@@ -1,3 +1,4 @@
+/* style.css */
 
 body {
     margin: 0;
@@ -14,6 +15,7 @@ header {
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 10px solid #b2d7e2;
 }
+
 .center-container {
     position: absolute;
     top: 50%;
@@ -102,4 +104,25 @@ audio:hover {
 
 audio:focus {
     outline: none;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    iframe {
+        margin: 10px;
+    }
+
+    audio {
+        margin: 10px;
+    }
 }
