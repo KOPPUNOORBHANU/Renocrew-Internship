@@ -1,4 +1,3 @@
-/* style.css */
 
 body {
     margin: 0;
@@ -15,7 +14,12 @@ header {
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 10px solid #b2d7e2;
 }
-
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+}
 
 h1 {
     margin: 0;
